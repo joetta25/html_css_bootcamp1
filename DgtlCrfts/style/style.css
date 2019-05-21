@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.container {
+  width: 100%;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  background-image: url(../img/atl.png);
+  height: 50%;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.top-nav{
+  color: gray;
+  text-decoration: none; 
+  display: inline-block;
+  margin-left: 1000px;
+}
+.first-section{
+position:static;
+text-align: center;
+padding-top: 5%;
+padding-bottom: 10%
+}
+h1{
+
+  font-size:80px;
+  color:white;
+
+}
+h5{
+  color:white;
+}
+h3{
+  padding-top:5%;
+  padding-bottom:5%;
+  font-size:40px;
+}
+.images{
+  float:left;
+}
