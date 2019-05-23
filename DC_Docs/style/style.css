@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1120px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+.side-nav{
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #4d4d4d;
+    overflow-x: hidden;
+    padding: 20px;
+}
+.nav{
+    padding-top: 15px;
+    
+}

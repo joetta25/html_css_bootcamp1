@@ -8,38 +8,73 @@
   text-align:center;
   margin-left:auto;
   margin-right:auto;
-  background-image: url(../img/atl.png);
-  height: 50%;
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size:cover;
 }
 .top-nav{
-  color: gray;
-  text-decoration: none; 
   display: inline-block;
   margin-left: 1000px;
 }
+li{
+  display: inline;
+  margin-left: 10px; 
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
 .first-section{
 position:static;
 text-align: center;
-padding-top: 5%;
-padding-bottom: 10%
+padding-top: 10px;
+padding-bottom: 10%;
+background-image: url(../img/atl.png);
+height: 80vh;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+background-size: 100% 100%;
+}
+.group{
+  height: 525px;
+}
+.DC-logo{
+  text-align: center;
+  height: 100px;
+  margin-top: 125px;
+}
+.pic{
+  height: 100px;
+  width: 150px;
+}
+.title{
+  color: white;
+
+}
+.title-2{
+font-size: 20px;
+color: white;
+}
+.arrow{
+  margin-top: 450px;
 }
 h1{
-
-  font-size:80px;
-  color:white;
-
-}
-h5{
-  color:white;
-}
-h3{
-  padding-top:5%;
-  padding-bottom:5%;
   font-size:40px;
 }
 .images{
   float:left;
+}
+.nd-section{
+margin-top: 100px;
+}
+.image{
+  padding: 10px;
+  float: left;
+  width: 33%;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 15px
+}
+.3rd-section{
+  border-style:solid;
 }
